@@ -1,3 +1,6 @@
-body{
-    background-color: dimgray;
+:root{
+    --oscuro:#07070A;
+    --azulOscuro:#0A1128;
+    --azulClaro:#006FE6;
+    --blanco:#FEFCFB;
 }
