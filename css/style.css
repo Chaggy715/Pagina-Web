@@ -1,6 +1,45 @@
-:root{
-    --oscuro:#07070A;
-    --azulOscuro:#0A1128;
-    --azulClaro:#006FE6;
-    --blanco:#FEFCFB;
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Bold.ttf);
+  font-style: bold;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ExtraBold.ttf);
+  font-style: bold;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Black.ttf);
+  font-style: bold;
+  font-weight: bold;
+}
+
+:root {
+  --oscuro: #07070a;
+  --azulOscuro: #0a1128;
+  --azulClaro: #006fe6;
+  --blanco: #fefcfb;
+  --regular_400: "Poppins", Poppins-Regular;
+  --bold_700: "Poppins", Poppins-Bold;
+  --extrabold_800: "Poppins", Poppins-ExtraBold;
+  --black_900: "Poppins", Poppins-Black;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+
