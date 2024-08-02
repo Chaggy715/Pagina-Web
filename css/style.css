@@ -36,10 +36,20 @@
 
 html{
     box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
 }
 
 *,*::before, *::after{
     box-sizing: inherit;
 }
 
-
+/*Estilos globales*/
+h1,h2,h3{
+    font-family: var(--black_900);
+}
+p,a{
+    font-family: var(--regular_400);
+}
